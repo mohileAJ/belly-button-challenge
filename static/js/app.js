@@ -78,7 +78,7 @@ function buildCharts(sample) {
     // Render the Bar Chart
     Plotly.newPlot("bar", [barChart], {
       title: "Top 10 Bacteria Cultures Found",
-      yaxis: {
+      xaxis: {
         title: "Number of Bacteria"
       }
     });
